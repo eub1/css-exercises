@@ -1,0 +1,18 @@
+p {
+  background-color: #fe8a9b;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.three {
+font-size: 24px;
+}
+
+#imid {
+  color: rgb(0,0,255); 
+  font-size: 36px;
+}
+
+#anotherid {
+  background-color: #90ee90e9;
+  font-size: 24px;
+  font-weight: bold;
+}
