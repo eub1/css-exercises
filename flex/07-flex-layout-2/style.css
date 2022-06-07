@@ -4,19 +4,19 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 16px 32px;
+  justify-content: space-between; /*not in solution*/
+  margin: 16px 32px; /*not in solution*/
 }
 
 .header {
   height: 72px;
-  padding: 16px;
+  padding: 0 16px;
   background: darkmagenta;
   color: white;
   font-size: 32px;
   font-weight: 900;
-  text-align: left;
-  margin-top: 16px;
+  text-align: left; /*not in solution*/
+  margin-top: 16px; /*not in solution*/
   display: flex;
   align-items: center;
 }
@@ -26,7 +26,6 @@ body {
   background: #eee;
   color: darkmagenta;
   display: flex;
-  /*flex: 1;*/
   justify-content: center;
   align-items: center;
 }
@@ -34,10 +33,10 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  display: flex;
+  display: flex; /*not in solution*/
   flex-shrink: 0;
-  align-items: flex-start;
-  padding: 16px;
+  align-items: flex-start; /*not in solution*/
+  padding: 16px; /*not in solution*/
 
 }
 
@@ -50,30 +49,42 @@ a {
 ul {
   list-style: none;
   padding: 0;
+  /*in solution
+  margin: 0*/
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 .text {
  padding: 32px;
- display: flex; flex-wrap: wrap;
- gap: 16px;
- flex: auto;
+ display: flex; 
+ flex-wrap: wrap;
+ gap: 16px;/*not in solution*/
+ flex: auto; /*not in solution*/
 }
 .card {
   width: 280px;
-  height: 200px;
-  font-size: 14px;
+  height: 200px;/*not in solution*/
+  font-size: 14px;/*not in solution*/
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 8px;
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  flex-shrink: 0;
+  display: flex;/*not in solution*/
+  gap: 8px;/*not in solution*/
+  flex-wrap: wrap; /*not in solution*/
+  flex-shrink: 0;/*not in solution*/
+  /*solution
+  padding: 16px
+  margin: 16px
+  width: 300px  
+  */
 }
 
 
 .container {  
   display: flex;
-  flex: auto;
+  flex: auto; /*flex: 1 in solution*/
 }
